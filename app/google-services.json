@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "588876842054",
+    "project_id": "tulipselfcare-c6065",
+    "storage_bucket": "tulipselfcare-c6065.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588876842054:android:1c6c88ca8cd5f7a30bf647",
+        "android_client_info": {
+          "package_name": "com.example.tulipselfcare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "588876842054-na5hg5e7rm8b3sp9bior4aufq187uobk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWmuZWsNuSzv48Inj3ng3JABhjVKg8vRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "588876842054-na5hg5e7rm8b3sp9bior4aufq187uobk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
