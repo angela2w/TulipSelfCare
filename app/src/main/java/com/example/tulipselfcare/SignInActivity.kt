@@ -7,11 +7,9 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
-import androidx.appcompat.widget.SearchView.OnSuggestionListener
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
-import com.google.rpc.context.AttributeContext.Auth
 
 class SignInActivity : AppCompatActivity() {
 
@@ -29,12 +27,12 @@ class SignInActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
             setContentView(R.layout.activity_sign_in)
 
-        etUserName=findViewById(R.id.et_username)
-        etName=findViewById(R.id.et_name)
-        etEmail=findViewById(R.id.et_email)
-        etPassword=findViewById(R.id.et_password)
+        etUserName=findViewById(R.id.et_AppName)
+        etName=findViewById(R.id.et_AppAddress)
+        etEmail=findViewById(R.id.et_AppContact)
+        etPassword=findViewById(R.id.et_AppFee)
         tvRedirectLogin_user=findViewById(R.id.tvRedirectlogin_user)
-        btnSignin=findViewById(R.id.btn_signin)
+        btnSignin=findViewById(R.id.btn_AppBookAppointment)
 
         auth = FirebaseAuth.getInstance()
         RootRef = FirebaseDatabase.getInstance().getReference()
